@@ -4,6 +4,16 @@ const GitHubUser = ({ username }) => {
  
   const {user, loading, error} = useGitHub(username);
 
+  
+ // Function to get the first letter of the username
+ const getFirstLetter = (username) => {
+  return username.charAt(0).toLowerCase();
+};
+
+// Get the first letter
+const firstLetter = getFirstLetter(username);
+
+
     // Function to handle the button click and navigate to the user's profile
     const handleViewProfileClick = () => {
       if (user && user.html_url) {
@@ -12,7 +22,8 @@ const GitHubUser = ({ username }) => {
     };
     
   return (
-    <div className="github-user">
+    // Add the first letter as a class to the div
+    <div className={`github-user ${firstLetter}`}>
       {loading && <p>Loading...</p>}
       {error && <p>{error.message}</p>}
 

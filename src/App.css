@@ -39,6 +39,122 @@ li {
   align-items: center;
 }
 
+.result .github-user {
+  /* Default background color */
+  background-color: rgba(22, 23, 22, 1);
+}
+
+/* Background colors based on the first letter of the username */
+.result .github-user.a {
+  background-color: rgb(240, 30, 30); /* Background color for usernames starting with 'a' */
+}
+
+.result .github-user.b {
+  background-color: rgba(22, 23, 22, 1); /* Background color for usernames starting with 'b' */
+}
+
+.result .github-user.c {
+  background-color: rgb(25, 179, 25); /* Background color for usernames starting with 'c' */
+}
+
+.result .github-user.d {
+  background-color: rgb(124, 124, 247); /* Background color for usernames starting with 'd' */
+}
+
+.result .github-user.e {
+  background-color: yellow;
+  color: black; /* Background color for usernames starting with 'e' */
+}
+
+.result .github-user.f {
+  background-color: purple; /* Background color for usernames starting with 'f' */
+}
+
+.result .github-user.g {
+  background-color: rgb(253, 173, 24); /* Background color for usernames starting with 'g' */
+}
+
+.result .github-user.h {
+  background-color: rgb(226, 255, 40); 
+  color: black;/* Background color for usernames starting with 'h' */
+}
+
+.result .github-user.i {
+  background-color: rgb(175, 100, 228); /* Background color for usernames starting with 'i' */
+}
+
+.result .github-user.j {
+  background-color: teal; /* Background color for usernames starting with 'j' */
+}
+
+.result .github-user.k {
+  background-color: cyan; /* Background color for usernames starting with 'k' */
+}
+
+.result .github-user.l {
+  background-color: rgb(85, 44, 208); /* Background color for usernames starting with 'l' */
+}
+
+.result .github-user.m {
+  background-color: lime;
+  color: black; /* Background color for usernames starting with 'm' */
+}
+
+.result .github-user.n {
+  background-color: maroon; /* Background color for usernames starting with 'n' */
+}
+
+.result .github-user.o {
+  background-color: navy; /* Background color for usernames starting with 'o' */
+}
+
+.result .github-user.p {
+  background-color: rgb(103, 194, 38); /* Background color for usernames starting with 'p' */
+}
+
+.result .github-user.q {
+  background-color: blueviolet; /* Background color for usernames starting with 'q' */
+}
+
+.result .github-user.r {
+  background-color: indigo; /* Background color for usernames starting with 'r' */
+}
+
+.result .github-user.s {
+  background-color: gold; /* Background color for usernames starting with 's' */
+  color: black;
+}
+
+.result .github-user.t {
+  background-color: violet;
+   color: black; /* Background color for usernames starting with 't' */
+}
+
+.result .github-user.u {
+  background-color: magenta; /* Background color for usernames starting with 'u' */
+}
+
+.result .github-user.v {
+  background-color: coral; /* Background color for usernames starting with 'v' */
+}
+
+.result .github-user.w {
+  background-color: limegreen; /* Background color for usernames starting with 'w' */
+}
+
+.result .github-user.x {
+  background-color: darkorange; /* Background color for usernames starting with 'x' */
+}
+
+.result .github-user.y {
+  background-color: deepskyblue; /* Background color for usernames starting with 'y' */
+}
+
+.result .github-user.z {
+  background-color: lightseagreen; /* Background color for usernames starting with 'z' */
+}
+
+
 .find-user .form-group input[type="text"] {
   border: none;
   border-bottom: 2px solid #0366d6;
